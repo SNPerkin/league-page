@@ -9,7 +9,7 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 export const homepageText = `
   <p>Welcome to the Globall League homepage</p>
   <p>Here you can find news, information, and history of our league</p>
-  <p>If you see any errors or have any suggestions, page Sam</p>
+  <p>If you see any errors or have any suggestions, send a message to Sam</p>
 `;
 
 export const managers = [
