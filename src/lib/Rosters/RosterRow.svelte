@@ -3,8 +3,8 @@
 	
 	export let player;
 
-	const playerSLotClass = player.slot.replace('/', '').replace('SUPER_', 'S-').replace('REC_', 'R-');
-	const playerSlot = player.slot.replace('SUPER_', 'S ').replace('REC_', 'R ');
+	const playerSLotClass = player.slot.replace('/', '').replace('SUPER_', 'S-').replace('REC_', 'R-').replace('IDP_FLEX','IDP');
+	const playerSlot = player.slot.replace('SUPER_', 'S ').replace('REC_', 'R ').replace('IDP_FLEX','IDP');
 </script>
 
 <style>
@@ -78,7 +78,7 @@
 		background-color: var(--DB);
 	}
 
-	.IDP_FLEX {
+	.IDP {
 		background: linear-gradient(to right, var(--DL), var(--DL) 33.33%, var(--LB) 33.33%, var(--LB) 66.66%, var(--DB) 66.66%);
 	}
 
