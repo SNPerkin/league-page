@@ -78,7 +78,7 @@
 		background-color: var(--DB);
 	}
 
-	.IDP {
+	.IDP_FLEX {
 		background: linear-gradient(to right, var(--DL), var(--DL) 33.33%, var(--LB) 33.33%, var(--LB) 66.66%, var(--DB) 66.66%);
 	}
 
