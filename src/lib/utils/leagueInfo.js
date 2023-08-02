@@ -28,7 +28,7 @@ export const managers = [
          image: "/managers/tom.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 8148, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "DB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "valuePosition": "CB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "I'll definitely win next year probably, and I'll trade you for it",
        "tradingScale": 9, // 1 - 10
@@ -217,7 +217,7 @@ export const managers = [
          image: "/managers/stefan.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 4866, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "valuePosition": "K", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "Saquon deez",
        "tradingScale": 4, // 1 - 10
