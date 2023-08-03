@@ -7,9 +7,11 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Welcome to the 🌎Globall League🏈 homepage</p>
-  <p>Here you can find news, stats, history and more records/awards</p>
-  <p>If you see any errors or have any suggestions, send a message to Sam</p>
+  <p>Founded in the Summer of 2023, this league is a global mix of friends, family and close colleagues brought together by the want to try Dynasty football and IDP fantasy. We compete to win the <b>Leafy Lombardi</b> trophy, and avoid the stain of the <i>humiliating</i> Toilet Bowl.</p>
+  <p>This is a Best Ball league, to minimize short-term micro-management, and keep the focus on trading and long-term roster construction. Strategic tanking is allowed, but collusion or giving up is not.</p>
+  <p>So have fun and enjoy learning dynasty and IDP, and I hope you stick around.</p>
+  <p>If you see any errors or have any suggestions, let me know.</p>
+  <p>-Sam</p>
 `;
 
 export const managers = [
