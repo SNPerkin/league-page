@@ -23,7 +23,7 @@ export const managers = [
        "photo": "/managers/samuel.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "det", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": 'Frisy', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
+       "mode": 'Fraud', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process' (Based on dynasty-daddy rankings)
        //"mode": "Grow", // (optional) 'Win Now', 'Dynasty', 'Grow', 'Tank', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Tom", // Can be anything (usually your rival's name)
@@ -45,7 +45,7 @@ export const managers = [
        "photo": "/managers/stefan.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "chi", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Rebuilding', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "Myself", // Can be anything (usually your rival's name)
          link: 1, // manager array number within this array, or null to link back to all managers page
@@ -66,7 +66,7 @@ export const managers = [
        "photo": "/managers/tom.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Grow", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Contender', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "Samuel", // Can be anything (usually your rival's name)
          link: 0, // manager array number within this array, or null to link back to all managers page
@@ -87,7 +87,7 @@ export const managers = [
        "photo": "/managers/gunnar.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "ind", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Fraud', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "???", // Can be anything (usually your rival's name)
          link: null, // manager array number within this array, or null to link back to all managers page
@@ -108,7 +108,7 @@ export const managers = [
        "photo": "/managers/orn.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "mia", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Grow", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Rebuilding', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "???", // Can be anything (usually your rival's name)
          link: null, // manager array number within this array, or null to link back to all managers page
@@ -129,7 +129,7 @@ export const managers = [
        "photo": "/managers/jon.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "bal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Contender', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "???", // Can be anything (usually your rival's name)
          link: null, // manager array number within this array, or null to link back to all managers page
@@ -150,7 +150,7 @@ export const managers = [
        "photo": "/managers/arnar.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Grow", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Fraud', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "???", // Can be anything (usually your rival's name)
          link: null, // manager array number within this array, or null to link back to all managers page
@@ -171,7 +171,7 @@ export const managers = [
        "photo": "/managers/oli.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "buf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Grow", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Frisky', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "Skaftinn", // Can be anything (usually your rival's name)
          link: 5, // manager array number within this array, or null to link back to all managers page
@@ -192,7 +192,7 @@ export const managers = [
        "photo": "/managers/snorri.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Fraud', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "???", // Can be anything (usually your rival's name)
          link: null, // manager array number within this array, or null to link back to all managers page
@@ -213,7 +213,7 @@ export const managers = [
        "photo": "/managers/rob.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+       "mode": 'Contender', //'Super Team' 'Contender' 'Frisky' 'Fraud' 'Rebuilding' 'Trust The Process'
        "rival": {
          name: "Stefán", // Can be anything (usually your rival's name)
          link: 1, // manager array number within this array, or null to link back to all managers page
